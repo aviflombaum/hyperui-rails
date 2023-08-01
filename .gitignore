@@ -1,0 +1,14 @@
+/.bundle/
+/doc/
+/log/*.log
+/pkg/
+/tmp/
+/spec/docs_app/db/*.sqlite3
+/spec/docs_app/db/*.sqlite3-*
+/spec/docs_app/log/*.log
+/spec/docs_app/storage/
+/spec/docs_app/tmp/
+.vscode
+node_modules
+/spec/docs_app/node_modules
+```
