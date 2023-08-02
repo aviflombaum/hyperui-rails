@@ -22,6 +22,11 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 6.0"
+  spec.add_dependency "tailwindcss-rails"
+
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-rails"
+
+  spec.add_development_dependency "redcarpet", "~> 3.6"
+  spec.add_development_dependency "rouge", "~> 4.1"
 end

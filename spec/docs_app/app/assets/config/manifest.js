@@ -1,3 +1,4 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
-//= link hyperui_rails_manifest.js
+//= link hyperui_manifest.js
+//= link_tree ../builds

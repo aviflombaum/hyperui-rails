@@ -3,6 +3,7 @@ PATH
   specs:
     hyperui (0.0.1)
       rails (>= 6.0)
+      tailwindcss-rails
 
 GEM
   remote: https://rubygems.org/
@@ -141,6 +142,8 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    redcarpet (3.6.0)
+    rouge (4.1.3)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -170,6 +173,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3-arm64-darwin)
+    tailwindcss-rails (2.0.30-arm64-darwin)
+      railties (>= 6.0.0)
     thor (1.2.2)
     timeout (0.4.0)
     tzinfo (2.0.6)
@@ -185,10 +190,13 @@ PLATFORMS
 DEPENDENCIES
   hyperui!
   puma
+  redcarpet (~> 3.6)
+  rouge (~> 4.1)
   rspec
   rspec-rails
   sprockets-rails
   sqlite3
+  tailwindcss-rails
 
 BUNDLED WITH
    2.4.16
