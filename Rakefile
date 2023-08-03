@@ -8,7 +8,7 @@ load "rails/tasks/statistics.rake"
 require "bundler/gem_tasks"
 
 namespace :assets do
-  task :precomplile do
-    `rake app:assets:precompile`
+  task :precompile do
+    system("cd spec/docs_app && bundle exec rails assets:precompile")
   end
 end
