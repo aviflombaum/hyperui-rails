@@ -11,4 +11,4 @@
 .vscode
 node_modules
 /spec/docs_app/node_modules
-```
+.env
