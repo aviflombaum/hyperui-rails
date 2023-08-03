@@ -196,6 +196,7 @@ PLATFORMS
 DEPENDENCIES
   hyperui!
   puma
+  rails
   redcarpet (~> 3.6)
   rouge (~> 4.1)
   rspec
